@@ -13,5 +13,12 @@
   <!-- Full content is in your original HTML and will remain the same. -->
   <!-- Only CSS and JS has been separated out. -->
   <script src="script.js"></script>
+  <script>
+    if('serviceWorker' in navigator){
+
+      navigator.serviceWorker.register('?/service-worker.js');
+
+    }
+  </script>
 </body>
 </html>
