@@ -1,7 +1,7 @@
 {
   "name": "Sagar Joshi Portfolio",
   "short_name": "Sagar Portfolio",
-  "start_url": "/",
+  "start_url": "/?home=true",
   "display": "standalone",
   "background_color": "#667eea",
   "theme_color": "#764ba2",
